@@ -1,24 +1,406 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>AfriTalent — Accueil</title> 
-    <!-- Bootstrap 5 via CDN : feuille de style --> 
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
-        rel="stylesheet"> 
-        <!-- Votre feuille de style personnelle --> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfriTalent — Accueil</title>
+    <!-- Bootstrap 5 via CDN : feuille de style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Votre feuille de style personnelle -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body> 
-    <!-- Le contenu de la page sera ajoute ici --> 
-    <!-- Bootstrap 5 via CDN : script JavaScript --> 
-    <script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    ></script> 
-    <!-- Votre script JavaScript --> 
-    <script src="js/main.js"></script>
-    
+
+<body>
+    <!-- Le contenu de la page sera ajoute ici -->
+    <!-- Bootstrap 5 via CDN : script JavaScript -->
+    <HEader>
+        <nav class="navbar  navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img src="images/logo1.png" width="100" height="100">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- j'ai enlevé ca 2h28mn -->
+                    <!-- je supprimer prcq je voulais se modele  -->
+                    <!-- <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul> -->
+                    <!-- je suis alles dans le css pour placer mes lien au centre -->
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="freelances.html">Freelances</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="tarifs.html">Tarifs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contacte</a>
+                        </li>
+                        <button>
+                            rejoindre AfriTalent
+                        </button>
+                        <!-- j'ai pas besoin de ça -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </HEader>
+    <section id="hero">
+        <nav>
+            <div>
+                <div>
+                    <h1>
+                        Bienvenu a AfriTalent
+                    </h1>
+                    <h2>
+                        Votre partenaire en développement web full <br> stack
+                        Transformez Vos Idées en Réalité Digitale
+                    </h2>
+                </div>
+                <div>
+                    <button>
+                        Je suis Freelances
+                    </button>
+                    <button>
+                        Je cherche un Freelances
+                    </button>
+                </div>
+                <div>
+                    <img src="images/arrirepl.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/a.jpg" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <h4>
+                                +2 500 <br> Freelances
+                            </h4>
+                        </div>
+                        <div class="col">
+                            <h4>
+                                +800 <br> Entreprises
+                            </h4>
+                        </div>
+                        <div class="col">
+                            <h4>
+                                +12 000 <br> Missions realise
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="c_ça_marche">
+        <div>
+            <div>
+                <p>Étape 01</p>
+                <img src="images/icone.jpg" alt="">
+                <h3>Inscription en 30 secondes</h3>
+                <p>Créez votre compte gratuitement sans carte bancaire. <br> Renseignez simplement votre email et
+                    choisissez <br> un mot de passe pour accéder à la plateforme.</p>
+                <button>Gratuit</button>
+            </div>
+
+            <div>
+                <p>Étape 02</p>
+                <img src="images/iconemes.jpg" alt="">
+                <h3>Posez votre question</h3>
+                <p>Tapez n'importe quelle question, dans votre langue, <br> aussi précise ou vague que vous voulez. <br>
+                    L'IA s'adapte à votre niveau et à votre contexte.</p>
+                <p>"Explique-moi la récursivité <br> comme si j'avais 12 ans"</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <p>Étape 03</p>
+                <img src="images/iconezig.jpg" alt="">
+                <h3>Obtenez une réponse</h3>
+                <p>Claire, structurée, et adaptée à votre besoin. En quelques secondes.</p>
+            </div>
+            <div>
+                <p>Étape 04</p>
+                <img src="images/iconeper.jpg" alt="">
+                <h3>Itérez et affinez</h3>
+                <p>Posez des questions de suivi, demandez <br> des exemples, changez de format. <br> La conversation
+                    s'enrichit à chaque échange.</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="cat_de_service">
+        <nav>
+            <div>
+                <img src="images/abou.jpg" alt="">
+                <h3>Développement web</h3>
+                <p>284 freelances disponibles</p>
+            </div>
+            <div>
+                <img src="images/abou2.jpg" alt="">
+                <h3>Design UI/UX</h3>
+                <p>157 freelances disponibles</p>
+            </div>
+            <div>
+                <img src="images/abou1.jpg" alt="">
+                <h3>Marketing digital</h3>
+                <p>312 freelances disponibles</p>
+            </div>
+            <div>
+                <img src="images/dataia.jpg" alt="">
+                <h3>Data & IA</h3>
+                <p>98 freelances disponibles</p>
+            </div>
+            <div>
+                <img src="images/aboutech.jpg" alt="">
+                <h3>Rédaction tech</h3>
+                <p>73 freelances disponibles</p>
+            </div>
+            <div>
+                <img src="images/abou3.jpg" alt="">
+                <h3>DevOps & Cloud</h3>
+                <p>121 freelances disponibles</p>
+            </div>
+        </nav>
+    </section>
+    <section id="TÉMOIGNAGES">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div>
+                        <img src="images/pro.jpg" class="d-block w-100">
+                        <h3>Eucher SENE</h3>
+                        <p>CEO Apple</p>
+                    </div>
+                    <p>"
+                        Grâce à cette plateforme, j'ai trouvé des missions régulières en moins de deux semaines <br> .
+                        Les
+                        clients sont sérieux, les paiements sont ponctuels et l'interface est vraiment agréable à <br>
+                        utiliser. Je recommande à tous les devs qui cherchent à se lancer en freelance.
+                    </p>
+                    <img src="images/etoiles.jpg" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div>
+                        <img src="images/pro3.jpg" class="d-block w-100" alt="...">
+                        <h3>Alamine Abani</h3>
+                        <p>Directeur SDGH</p>
+                    </div>
+                    <p>"
+                        Ce qui m'a séduite, c'est la simplicité du processus : un profil bien présenté, des clients qui
+                        <br>
+                        savent ce qu'ils veulent, et des outils pour gérer mes contrats directement sur la plateforme.
+                        <br>
+                        Je gère maintenant 3 clients simultanément sans stress.
+                    </p>
+                    <img src="images/etoiles.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <div>
+                        <img src="images/pro2.jpg" class="d-block w-100" alt="...">
+                        <h3>Khady Seck MBAYE</h3>
+                        <p>Designer UI/UX.Freelance </p>
+                    </div>
+                    <p>"
+                        Grâce à cette plateforme, j'ai trouvé des missions régulières en moins de deux semaines. <br>
+                        Les
+                        clients sont sérieux, les paiements sont ponctuels et l'interface est vraiment agréable à <br>
+                        utiliser. Je recommande à tous les devs qui cherchent à se lancer en freelance.
+                    </p>
+                    <img src="images/etoiles.jpg" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="CTA_appele">
+        <div>
+            <button>Rejoignez la communauté</button>
+            <h3>Trouvez le freelance idéal <br>
+                ou décrochez votre prochaine mission
+            </h3>
+            <p>
+                Trouvez le freelance idéal <br>
+                ou décrochez votre prochaine mission
+            </p>
+            <div>
+                <button>Devenir Freelance</button>
+                <button>Recruter un talent</button>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <p>
+                        La plateforme de référence pour connecter <br> les freelances africains aux meilleures
+                        opportunités
+                        <br> professionnelles du continent et au-delà.
+                    </p>
+                </div>
+                <div class="col">
+                    <p>Accueil
+                        Comment ça marche <br>
+                        Catégories de services <br>
+                        Trouver un freelance <br>
+                        Publier une mission <br>
+                        Témoignages</p>
+                </div>
+                <div class="col">
+                    <p>
+                        Blog & actualités <br>
+                        Guide du freelance <br>
+                        Centre d'aide <br>
+                        Politique tarifaire <br>
+                        Conditions d'utilisation <br>
+                        Confidentialité
+                    </p>
+                </div>
+                <div class="col">
+                    <p>
+                        contact@afritalent.com <br>
+                        +221 77 000 00 00 <br>
+                        Dakar, Sénégal <br>
+                    </p>
+                </div>
+            </div>
+            </div>
+        </footer>
+    </section>
+    <!-- <section id="cat_de_service">
+        <div>
+            <div>
+                <img src="images/icone0.jpg" alt="">
+                <h4>
+                   Développement Web
+                </h4>
+                <p>
+                    Un site élégant et performant pour présenter <br> votre entreprise, vos services et convertir <br>
+                    vos
+                    visiteurs en clients.Design sur‑mesure responsive <br> SEO optimisé dès le départ
+                </p>
+            </div>
+            <div>
+                <img src="images/icone2.jpg" alt="">
+                <h4>
+                    Data & Intelligence Artificielle
+                </h4>
+                <p>Exploitez la puissance de vos données et de l'IA pour automatiser, <br> prédire et décider avec
+                    précision dans
+                    votre activité. <br> Dashboards & visualisation de donnéesIntégration IA générative (LLM, Claude…)
+                </p>
+            </div>
+            <div>
+                <img src="images/icone3.jpg" alt="">
+                <h4>
+                    Formations Digitales
+                </h4>
+                <p>Maîtrisez les meilleurs outils du digital : no-code, IA, <br> marketing, automatisation - des
+                    formations pratiques adaptées à votre <br> niveau et vos objectifs.Formation no-code & IA (Make,
+                    Notion, LLM…) <br> Ateliers pratiques en présentiel / distanciel
+                </p>
+            </div>
+
+        </div>
+    </section> -->
+    <!-- <section id="categ-d-serv">
+        <nav>
+            <nav>
+                <div>
+                    <img src="images/html.jpg" alt="">
+                    <div>
+                        <h4>Debutant a pro </h4>
+                        <p>maitrise les fondamentaux du xeb <br> structure html, mise en forme css <br> comment bien
+                            comprendre Boostrap</p>
+                    </div>
+                </div>
+            </nav>
+            <div>
+                <div>
+                    <img src="images/js.jpg" alt="">
+                </div>
+                <div>
+                    <h4>JavaScript--Les bases</h4>
+                    <p>Apprendre JavaScript de zéro: variable <br> fonctions, DOM et evénements. <br>Du débutant a
+                        l'intermediaire.</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="images/php.jpg" alt="">
+                </div>
+                <div>
+                    <h4>PHP developement web <br>Dynamique</h4>
+                    <p>Maitrises PHP: conditions tableaux, <br>fonction formulaire base de donnée <br>tu peux déjà créer
+                        des sites web <br> dynamiques et interactifs.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="images/lc.jpg" alt="">
+                </div>
+                <div>
+                    <h4>Langage c les bases</h4>
+                    <p>Le C++ est un langage puissant : il te donne <br> assez de liberté pour créer n’importe quoi…
+                        <br> et assez de cordes pour te compliquer la vie si <br> tu n’es pas prudent
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="images/py.jpg" alt="">
+                </div>
+                <div>
+                    <h4>Python-Programation</h4>
+                    <p>Apprends python de zéro: variables, <br>structure de controle, colection. <br>Avec ces bases, tu
+                        peux déjà créer <br> des scripts simples, automatiser des tâches</p>
+                </div>
+            </div>
+
+        </nav>
+
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Votre script JavaScript -->
+    <script src="js/main.js">
+    </script>
 </body>
+
 </html>
