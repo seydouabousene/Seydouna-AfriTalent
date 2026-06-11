@@ -4,20 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AfriTalent — Accueil</title>
+    <title>AfriTalent—Accueil</title>
     <!-- Bootstrap 5 via CDN : feuille de style -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Votre feuille de style personnelle -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Story+Script&display=swap"
+        rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
     <!-- Le contenu de la page sera ajoute ici -->
     <!-- Bootstrap 5 via CDN : script JavaScript -->
-    <HEader>
-        <nav class="navbar  navbar-expand-lg bg-body-tertiary">
+    <header>
+        <nav class="navbar  navbar-expand-lg ">
             <div class="container-fluid">
-                <img src="images/logo1.png" width="100" height="100">
+                <div class="logo">
+                    <nav class="af">
+                        <h1>Afri</h1>
+                    </nav>
+                    <nav class="tal">
+                        <h3>Talent</h3>
+                    </nav>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,24 +57,22 @@
                     </ul> -->
                     <!-- je suis alles dans le css pour placer mes lien au centre -->
                     <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" aria-current="page" href="index.html">Accueil</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="freelances.html">Freelances</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="freelances.html">Freelances</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="about.html">A propos</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="about.html">A propos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="tarifs.html">Tarifs</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="tarifs.html">Tarifs</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contacte</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="contact.html">Contacte</a>
                         </li>
-                        <button>
-                            rejoindre AfriTalent
-                        </button>
+
                         <!-- j'ai pas besoin de ça -->
                         <!-- <li class="nav-item">
                             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -66,135 +80,337 @@
                     </ul>
                 </div>
             </div>
+            <div class="baf">
+                <button class="button">
+                    rejoindre AfriTalent
+                </button>
+            </div>
         </nav>
-    </HEader>
+
+    </header>
     <section id="hero">
-        <nav>
-            <div>
-                <div>
-                    <h1>
-                        Bienvenu a AfriTalent
+        <nav class="heroo">
+            <main>
+                <div class="bien ">
+                    <h1 class="bi">
+                        Bienvenue a
+                        <div class="logo bilo">
+                            <nav class="af">
+                                <h1>Afri</h1>
+                            </nav>
+                            <nav class="tal">
+                                <h3>Talent</h3>
+                            </nav>
+                        </div>
                     </h1>
-                    <h2>
-                        Votre partenaire en développement web full <br> stack
+                    <h3 class="story-script-regular">
+                        Votre partenaire en développement <strong class="full">web full <br> stack</strong>
                         Transformez Vos Idées en Réalité Digitale
-                    </h2>
+                    </h3>
                 </div>
-                <div>
-                    <button>
+                <div class="butcontaine">
+
+                    <button class="but1 but11">
                         Je suis Freelances
                     </button>
-                    <button>
+                    <button class="but1 but22">
                         Je cherche un Freelances
                     </button>
+
                 </div>
-                <div>
+                <!-- <div>
                     <img src="images/arrirepl.jpg" alt="">
-                </div>
-                <div>
+                </div> -->
+                <!-- <div>
                     <img src="images/a.jpg" alt="">
-                </div>
+                </div> -->
+            </main>
+            <div class="imagehero">
+                <img src="images/a.png" width="205px">
             </div>
-            <div>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col">
-                            <h4>
-                                +2 500 <br> Freelances
-                            </h4>
-                        </div>
-                        <div class="col">
-                            <h4>
-                                +800 <br> Entreprises
-                            </h4>
-                        </div>
-                        <div class="col">
-                            <h4>
-                                +12 000 <br> Missions realise
-                            </h4>
-                        </div>
+        </nav>
+        <div class="containe cole">
+            <div class="container   text-center">
+                <div class="row ">
+                    <div class="col">
+                        <h4>
+                            +2 500 <br> Freelances
+                        </h4>
+                    </div>
+                    <div class="col">
+                        <h4>
+                            +800 <br> Entreprises
+                        </h4>
+                    </div>
+                    <div class="col">
+                        <h4>
+                            +12 000 <br> Missions realise
+                        </h4>
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
+
     </section>
     <section id="c_ça_marche">
-        <div>
-            <div>
-                <p>Étape 01</p>
-                <img src="images/icone.jpg" alt="">
+
+        <div class="pili">
+            <h2>L'Empire sur <span class="pilli">4 piliers</span></h2>
+            <p>
+                Un écosystème technologique complet pour dominer chaque <br>
+                <span class="pil"> dimension du digital. </span>
+            </p> 
+           
+        </div>
+        <nav class="comment">
+            <div class="card-a ca ">
+                <div class="etape">
+                    <p>Étape 01</p>
+                    <img src="images/icone.png" width="100px">
+                </div>
                 <h3>Inscription en 30 secondes</h3>
                 <p>Créez votre compte gratuitement sans carte bancaire. <br> Renseignez simplement votre email et
                     choisissez <br> un mot de passe pour accéder à la plateforme.</p>
                 <button>Gratuit</button>
             </div>
-
-            <div>
-                <p>Étape 02</p>
-                <img src="images/iconemes.jpg" alt="">
+            <div class="card-b cb">
+                <div class="etape">
+                    <p>Étape 02</p>
+                    <img src="images/iconemes.png" width="100px">
+                </div>
                 <h3>Posez votre question</h3>
                 <p>Tapez n'importe quelle question, dans votre langue, <br> aussi précise ou vague que vous voulez. <br>
                     L'IA s'adapte à votre niveau et à votre contexte.</p>
                 <p>"Explique-moi la récursivité <br> comme si j'avais 12 ans"</p>
             </div>
-        </div>
-        <div>
-            <div>
-                <p>Étape 03</p>
-                <img src="images/iconezig.jpg" alt="">
+            <div class="card-b cc">
+                <div class="etape">
+                    <p>Étape 03</p>
+                    <img src="images/iconezig.png" width="100px">
+                </div>
                 <h3>Obtenez une réponse</h3>
-                <p>Claire, structurée, et adaptée à votre besoin. En quelques secondes.</p>
+                <p>Claire, structurée, et adaptée à votre besoin. <br> En quelques secondes.</p>
             </div>
-            <div>
-                <p>Étape 04</p>
-                <img src="images/iconeper.jpg" alt="">
+            <div class="etape4 card-a cd">
+                <div class="etape ">
+                    <p>Étape 04</p>
+                    <img src="images/iconeper.jpg" width="100px">
+                </div>
                 <h3>Itérez et affinez</h3>
                 <p>Posez des questions de suivi, demandez <br> des exemples, changez de format. <br> La conversation
                     s'enrichit à chaque échange.</p>
             </div>
-        </div>
+        </nav>
+
 
     </section>
     <section id="cat_de_service">
-        <nav>
+        <div class="pili">
+            <h2>
+               Toutes les formations
+            </h2>
+        </div>
+        <nav class="card-cat">
             <div>
-                <img src="images/abou.jpg" alt="">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/abou.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Développement web</h5>
+                        <p class="card-text">284 freelances disponibles.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/abou2.png" class="card-img-top" alt="..." width="">
+                    <div class="card-body">
+                        <h5 class="card-title">Design UI/UX</h5>
+                        <p class="card-text">157 freelances disponibles.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/abou1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Marketing digital</h5>
+                        <p class="card-text">312 freelances disponibles.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/chat.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Data & IA</h5>
+                        <p class="card-text">98 freelances disponibles.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/aboutech.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rédaction tech</h5>
+                        <p class="card-text">73 freelances disponibles.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/abou3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DevOps & Cloud</h5>
+                        <p class="card-text">121 freelances disponible.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- <nav class="card-cat">
+            <div class="card-ser">
+                <img src="images/abou.png" width="100">
                 <h3>Développement web</h3>
                 <p>284 freelances disponibles</p>
             </div>
-            <div>
-                <img src="images/abou2.jpg" alt="">
+            <div class="card-ser">
+                <img src="images/abou2.png" width="100">
                 <h3>Design UI/UX</h3>
                 <p>157 freelances disponibles</p>
             </div>
-            <div>
-                <img src="images/abou1.jpg" alt="">
+            <div class="card-ser">
+                <img src="images/abou1.png" width="100">
                 <h3>Marketing digital</h3>
                 <p>312 freelances disponibles</p>
             </div>
-            <div>
-                <img src="images/dataia.jpg" alt="">
+            <div class="card-ser">
+                <img src="images/dataia.jpg" width="100">
                 <h3>Data & IA</h3>
                 <p>98 freelances disponibles</p>
             </div>
-            <div>
-                <img src="images/aboutech.jpg" alt="">
+            <div class="card-ser">
+                <img src="images/aboutech.png" width="100">
                 <h3>Rédaction tech</h3>
                 <p>73 freelances disponibles</p>
             </div>
-            <div>
-                <img src="images/abou3.jpg" alt="">
+            <div class="card-ser">
+                <img src="images/abou3.png" width="100">
                 <h3>DevOps & Cloud</h3>
                 <p>121 freelances disponibles</p>
             </div>
-        </nav>
+        </nav> -->
     </section>
-    <section id="TÉMOIGNAGES">
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <section id="TÉMOIGNAGES" class="py-5">
+        <h3 class="text-ligh text-center">Mes témoignages</h3>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="card-h" style="width: 18rem;">
+                            <img src="images/profile4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                   <div class="row justify-content-center">
+                        <div class="card-h" style="width: 18rem;">
+                            <img src="images/pro3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="card-h" style="width: 18rem;">
+                            <img src="images/profile3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- <div id="carouselExampleCaptions" class="carousel slide mon-carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src=".." class="d-block w-100" alt="..." width="100px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Eucher SENE</h5>
+                    <p>Grâce à cette plateforme, j'ai trouvé des missions régulières en moins de deux semaines <br> .
+                        Les
+                        clients sont sérieux, les paiements sont ponctuels et l'interface est vraiment agréable à <br>
+                        utiliser. Je recommande à tous les devs qui cherchent à se lancer en freelance.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>lamine Abani</h5>
+                    <p> Ce qui m'a séduite, c'est la simplicité du processus : un profil bien présenté, des clients qui
+                        <br>
+                        savent ce qu'ils veulent, et des outils pour gérer mes contrats directement sur la plateforme.
+                        <br>
+                        Je gère maintenant 3 clients simultanément sans stress.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Khady Seck MBAYE</h5>
+                    <p>Grâce à cette plateforme, j'ai trouvé des missions régulières en moins de deux semaines. <br>
+                        Les
+                        clients sont sérieux, les paiements sont ponctuels et l'interface est vraiment agréable à <br>
+                        utiliser. Je recommande à tous les devs qui cherchent à se lancer en freelance.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+        <!-- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"  >
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000" >
                     <div>
-                        <img src="images/pro.jpg" class="d-block w-100">
+                        <img src="images/pro.jpg"   alt="">
                         <h3>Eucher SENE</h3>
                         <p>CEO Apple</p>
                     </div>
@@ -208,7 +424,7 @@
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <div>
-                        <img src="images/pro3.jpg" class="d-block w-100" alt="...">
+                        <img src="images/pro3.jpg" width="500" ; alt="...">
                         <h3>Alamine Abani</h3>
                         <p>Directeur SDGH</p>
                     </div>
@@ -223,7 +439,7 @@
                 </div>
                 <div class="carousel-item">
                     <div>
-                        <img src="images/pro2.jpg" class="d-block w-100" alt="...">
+                        <img src="images/pro2.jpg" alt="...">
                         <h3>Khady Seck MBAYE</h3>
                         <p>Designer UI/UX.Freelance </p>
                     </div>
@@ -246,23 +462,31 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
+        </div> -->
     </section>
     <section id="CTA_appele">
-        <div>
-            <button>Rejoignez la communauté</button>
-            <h3>Trouvez le freelance idéal <br>
-                ou décrochez votre prochaine mission
-            </h3>
-            <p>
-                Trouvez le freelance idéal <br>
-                ou décrochez votre prochaine mission
-            </p>
-            <div>
-                <button>Devenir Freelance</button>
-                <button>Recruter un talent</button>
+        <nav class="cta ">
+            <div class="buta">
+                <button class="butcta butm butmm">Rejoignez la communauté</button>
             </div>
-        </div>
+            <div class="textaa">
+                <h2 class="tcta">Trouvez le <span>freelance</span> idéal </h2>
+            </div>
+            <div class="texta">
+                <h2 class="tcta">
+                    ou décrochez votre prochaine <strong> mission</strong>
+                </h2>
+            </div>
+            <div class="butbc butbcc">
+                <div class=" butb">
+                    <button class="butcta  butctaa">Devenir Freelance</button>
+                </div>
+                <div class="butc">
+                    <button class="butcta butctaa ">Recruter un talent</button>
+                </div>
+            </div>
+
+        </nav>
     </section>
     <section id="footer">
         <footer>
@@ -275,16 +499,19 @@
                     </p>
                 </div>
                 <div class="col">
-                    <p>Accueil
+                    <h3>Accueil</h3>
+                    <p>
                         Comment ça marche <br>
                         Catégories de services <br>
                         Trouver un freelance <br>
                         Publier une mission <br>
-                        Témoignages</p>
+                        Témoignages
+                    </p>
                 </div>
                 <div class="col">
+                    <h3>Blog & actualités </h3>
                     <p>
-                        Blog & actualités <br>
+
                         Guide du freelance <br>
                         Centre d'aide <br>
                         Politique tarifaire <br>
@@ -297,6 +524,7 @@
                         contact@afritalent.com <br>
                         +221 77 000 00 00 <br>
                         Dakar, Sénégal <br>
+                        <img src="images/reseaux.png" width="150px" alt="">
                     </p>
                 </div>
             </div>

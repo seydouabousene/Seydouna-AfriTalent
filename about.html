@@ -9,13 +9,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Votre feuille de style personnelle -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Story+Script&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
 </head>
 
 <body>
-    <HEader>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+   <header>
+        <nav class="navbar  navbar-expand-lg ">
             <div class="container-fluid">
-                <img src="images/logo1.png" width="100" height="100">
+               <div class="logo">
+                   <nav class="af"><h1>Afri</h1></nav>
+                   <nav class="tal"><h3>Talent</h3></nav>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,24 +50,22 @@
                     </ul> -->
                     <!-- je suis alles dans le css pour placer mes lien au centre -->
                     <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" aria-current="page" href="index.html">Accueil</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="freelances.html">Freelances</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="freelances.html">Freelances</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="about.html">A propos</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="about.html">A propos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="tarifs.html">Tarifs</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="tarifs.html">Tarifs</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contacte</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="contact.html">Contacte</a>
                         </li>
-                        <button>
-                            rejoindre AfriTalent
-                        </button>
+                        
                         <!-- j'ai pas besoin de ça -->
                         <!-- <li class="nav-item">
                             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -64,107 +73,142 @@
                     </ul>
                 </div>
             </div>
+            <div class="baf">
+                <button class="button">
+                    rejoindre AfriTalent 
+                </button>
+            </div>
         </nav>
-    </HEader>
-    <section id="Notre Histoire">
-        <div>
-            <div>
-                <h3>Notre Histoir</h3>
-                <h2>Une aventure née à Dakar en 2017</h2>
-                <p>AfriTalent est née d'une conviction simple : la technologie doit être au service de tous. <br> Trois
-                    amis, un bureau à Dakar, et l'idée de rendre le numérique <br> accessible à chaque entrepreneur
-                    africain.</p>
 
-                <p>Aujourd'hui nous sommes présents dans 12 <br> pays, portés par une équipe passionnée et une <br>
-                    communauté de plus de 48 000 utilisateurs.</p>
+    </header>
+    <section id="Notre-Histoire">
+        <div class="Histoir">
+            <div class="textehis">
+                <h2>Notre Histoir</h2>
+                <h3 class="full">Une aventure née à Dakar en 2017</h3>
+                <p class="textehiss">AfriTalent est née d'une conviction simple : la technologie <br> doit être au service de tous. <br> Trois
+                    amis, un bureau à Dakar, et l'idée de rendre le numérique <br> accessible à chaque entrepreneur
+                    africain.
+                </p>
+
+                <p class="textehiss">
+                    Trois amis, un développeur, un designer 
+                    et une marketeuse, <br> ont décidé
+                     de changer cela. Aujourd'hui AfriTalent
+                     connecte des milliers <br> de freelances à des 
+                     centaines d'entreprises <br> à travers le continent.
+                </p>
+                <div class="tvide ">
+                    <div class="videfon">
+                        <span class="svide">2017</span>
+                        <span class="ssvide">Fondation</span>
+                    </div>
+                    <div class="vide"></div>
+                    <div class="videfon">
+                        <span class="svide">12</span>
+                        <span class="ssvide">Pays couverts</span>
+                    </div>
+                    <div class="vide"></div>
+                    <div class="videfon">
+                        <span class="svide">3*</span>
+                        <span class="ssvide">Croissance/an</span>
+                    </div>
+                </div>
             </div>
             <div>
-                <img src="images/entreprise.jpg">
+                <img src="images/entreprise.jpg" class="imghis" width="500px">
             </div>
         </div>
     </section>
-    <section id="L'équipe ">
-        <div class="row d-flex justify-content-center d-grid gap-3">
-            <div class="card" style="width: 18rem;">
-                <img src="images/abdou.jpg" class="card-img-top" alt="...">
+    <section id="lequipe">
+        <div class="personne">
+            <h3>L'équipe</h3>
+            <p>Les personnes derrière Nexora</p>
+        </div>
+        <div class="row d-flex  justify-content-center d-grid gap-3">
+            <div class=" card-h" style="width: 18rem;">
+                <img src="images/abdou.jpg" class="card-img-top card-img-topp" alt="...">
                 <div class="card-body">
                     <h5>Abou Sene</h5>
                     <p class="card-text">CEO & Co- <br> fondatrice</p>
-                    <img src="images/reseaux.jpg" width="100">
+                    <img src="images/reseaux.png" width="100">
                 </div>
 
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="images/Baye.jpg" class="card-img-top" alt="...">
+            <div class=" card-h" style="width: 18rem;">
+                <img src="images/Baye.jpg" class="card-img-top card-img-topp" alt="...">
                 <div class="card-body">
                     <h5>Abdou Diouf</h5>
                     <p class="card-text">CTO & Co- <br> fondateur</p>
-                    <img src="images/reseaux.jpg" width="100">
+                    <img src="images/reseaux.png" width="100">
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="images/Astou.jpg" class="card-img-top" alt="...">
+            <div class="card-h" style="width: 18rem;">
+                <img src="images/Astou.jpg" class="card-img-top card-img-topp" alt="...">
                 <div class="card-body">
                     <h5>Khady Mbaye</h5>
                     <p class="card-text">Directrice Design</p>
-                    <img src="images/reseaux.jpg" width="100">
+                    <img src="images/reseaux.png" width="100">
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="images/khady.jpg" class="card-img-top" alt="...">
+            <div class=" card-h" style="width: 18rem;">
+                <img src="images/khady.jpg" class="card-img-top card-img-topp" alt="...">
                 <div class="card-body">
                     <h5>Astou Sene</h5>
                     <p class="card-text">Head of Growth</p>
-                    <img src="images/reseaux.jpg" width="100">
+                    <img src="images/reseaux.png" width="100">
                 </div>
             </div>
         </div>
     </section>
     <section id="Nos_valeurs">
-        <div>
-            <p>L'équipe</p>
-            <h5>Les personnes derrière Nexora</h5>
+        <div class="texval">
+            <h2>Nos valeurs</h2>
+            <span>C qui nous guide chaque jours</span>
         </div>
-        <div>
-            <img src="images/icone2.jpg" alt="">
-            <h5>Innovation</h5>
-            <p>
-                Remettre en question <br> le statu quo à <br> chaque itération.
-            </p>
-        </div>
-        <div>
-            <img src="images/iconeper.jpg" alt="">
-            <h5>accessible</h5>
-            <p>
-                Des produits utilisables <br> par tous, sur tous <br> les appareils.
-            </p>
-        </div>
-        <div>
-            <img src="images/reussite.jpg" alt="">
-            <h5>Innovation</h5>
-            <p>
-                Remettre en question <br> le statu quo à <br> chaque itération.
-            </p>
-        </div>
-        <div>
-            <img src="images/acccc.jpg" alt="">
-            <h5>Excelence</h5>
-            <p>
-                Remettre en question <br> le statu quo à <br> chaque itération.
-            </p>
+        <div class="val">
+            <div class="cardd">
+                <img src="images/icone2.png" width="200px" alt="">
+                <h5>Innovation</h5>
+                <p>
+                    Remettre en question <br> le statu quo à <br> chaque itération.
+                </p>
+            </div>
+            <div class="cardd">
+                <img src="images/personne.png" width="200px" alt="">
+                <h5>accessible</h5>
+                <p>
+                    Des produits utilisables <br> par tous, sur tous <br> les appareils.
+                </p>
+            </div>
+            <div class="cardd">
+                <img src="images/reussite.png" width="200px" alt="">
+                <h5>Innovation</h5>
+                <p>
+                    Remettre en question <br> le statu quo à <br> chaque itération.
+                </p>
+            </div>
+            <div class="cardd">
+                <img src="images/acccc.png" width="200px" alt="">
+                <h5>Excelence</h5>
+                <p>
+                    Remettre en question <br> le statu quo à <br> chaque itération.
+                </p>
+            </div>
         </div>
 
     </section>
-    <section id="Chiffres_clés ">
-        <div class="container">
+    <section id="Chiffres_clés">
+        <div class="container cont">
+             <h2>AfriTalent <span class="chif">En chiffres</span> </h2> 
             <div class="row">
-                <div class="col">
+                <div class="col col1">
                    48 000+
                    <div>
                     <p>Utilisateurs actifs</p>
                    </div>
                 </div>
-                <div class="col">
+                <div class="col col2">
                     7
                     <div>
                         <p>Années d'expérience </p>
@@ -172,7 +216,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col col3">
                    4.8
                    <div>
                     <p>
@@ -180,7 +224,7 @@
                     </p>
                    </div>
                 </div>
-                <div class="col">
+                <div class="col col4">
                    320+
                    <div>
                     <p>
@@ -188,7 +232,7 @@
                     </p>
                    </div>
                 </div>
-                <div class="col">
+                <div class="col col5">
                     98%
                     <div>
                         <p>

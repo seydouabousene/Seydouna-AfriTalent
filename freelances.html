@@ -9,13 +9,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Votre feuille de style personnelle -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Story+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
-    <HEader>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header>
+        <nav class="navbar  navbar-expand-lg ">
             <div class="container-fluid">
-                <img src="images/logo1.png" width="100" height="100">
+                <div class="logo">
+                    <nav class="af">
+                        <h1>Afri</h1>
+                    </nav>
+                    <nav class="tal">
+                        <h3>Talent</h3>
+                    </nav>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,24 +55,22 @@
                     </ul> -->
                     <!-- je suis alles dans le css pour placer mes lien au centre -->
                     <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" aria-current="page" href="index.html">Accueil</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="freelances.html">Freelances</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="freelances.html">Freelances</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="about.html">A propos</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="about.html">A propos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="tarifs.html">Tarifs</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="tarifs.html">Tarifs</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contacte</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="contact.html">Contacte</a>
                         </li>
-                        <button>
-                            rejoindre AfriTalent
-                        </button>
+
                         <!-- j'ai pas besoin de ça -->
                         <!-- <li class="nav-item">
                             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -64,158 +78,173 @@
                     </ul>
                 </div>
             </div>
+            <div class="baf">
+                <button class="button">
+                    rejoindre AfriTalent
+                </button>
+            </div>
         </nav>
-    </HEader>
-    <section id="hero1">
-        <div class="d-flex justify-content-center">
-            <h2>
-                Trouvez le <STRong class="text-primary"> talent idéal </STRong> <br> pour votre projet
-            </h2>
-        </div>
-        <div>
-            <p class="d-flex justify-content-center">
-                Des freelances qualifiés, disponibles et prêts à travailler sur vos projets dès aujourd'hui.
-            </p>
 
-            <div class="row d-flex justify-content-center d-grid gap-3  ">
-
-                <div class="card" style="width: 18rem; shadow p-3 mb-5 bg-body-tertiary rounded ">
-                    <img src="images/profile2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Awa Baldé</h5>
-                        <h6>Développeur Full-Stack</h6>
-                        <p class="card-text">Experte Figma et design system. Elle conçoit des interfaces intuitives
-                            centrées sur l'expérience utilisateur.
-                        </p>
-                        <hr>
-                        <p><strong>35 000</strong>FCFA/j</p>
-                        <a href="#" class="btn btn-primary">Voir le profil</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
-                    <img src="images/pro2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Rokhaya Faye</h5>
-                        <h6>Social Media Manager</h6>
-                        <p class="card-text">
-                            Stratège contenu sur Instagram et TikTok. Elle booste la visibilité des marques africaines
-                            sur le digital.
-                        </p>
-                        <hr>
-                        <p><strong>25 000</strong>FCFA/j</p>
-                        <a href="#" class="btn btn-primary">Voir le profil</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
-                    <img src="images/profile3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Binta Kouyaté</h5>
-                        <h6>Rédactrice technique</h6>
-                        <p class="card-text">
-                            Spécialiste documentation API et tutoriels développeurs. Elle rend la tech accessible à tous
-                            les publics.
-                        </p>
-                        <hr>
-                        <p><strong>30 000</strong>FCFA</p>
-                        <a href="#" class="btn btn-primary">Voir le profil</a>
-                    </div>
-                </div>
+        </header>
+        <section id="hero1">
+            <div class="d-flex d-flexx justify-content-center">
+                <h2>
+                    Trouvez le <strong class="text-light"> talent idéal </strong> <br> pour votre projet
+                </h2>
             </div>
-            <div class="row d-flex justify-content-center d-grid gap-3  ">
+            <div>
+                <p class="d-flex justify-content-center">
+                    Des freelances qualifiés, disponibles et prêts à travailler sur vos projets dès aujourd'hui.
+                </p>
 
-                <div class="card" style="width: 18rem; shadow p-3 mb-5 bg-body-tertiary rounded ">
-                    <img src="images/profil.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Ibou Diagne</h5>
-                        <h6>DevOps Engineer</h6>
-                        <p class="card-text">
-                            Maîtrise Kubernetes, Terraform et AWS. Il automatise les déploiements et sécurise les
-                            infrastructures cloud.
-                        </p>
-                        <hr>
-                        <p><strong>58 000</strong>FCFA/j</p>
-                        <a href="#" class="btn btn-primary">Voir le profil</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
-                    <img src="images/profile4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Aïssatou Barry</h5>
-                        <h6>ML Engineer</h6>
-                        <p class="card-text">
-                            Spécialiste NLP et Hugging Face. Elle développe des modèles de langage adaptés aux contextes
-                            africains.
-                        </p>
-                        <hr>
-                        <p><strong>60 000</strong>FCFA</p>
-                        <a href="#" class="btn btn-primary">Voir le profil</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
-                    <img src="images/profile1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Karim Diallo</h5>
-                        <p class="card-text">
-                            Spécialiste React & Node.js avec 6 ans d'expérience. Passionné par les architectures
-                            scalables et les APIs RESTful.
-                        </p>
-                        <hr>
-                        <p><strong>35 000</strong>FCFA/j</p>
-                        <a href="#" class="btn btn-primary">Voir le profil</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center d-grid gap-3  ">
+                <div class="row d-flex justify-content-center d-grid gap-3  ">
 
-                <div class="card" style="width: 18rem; shadow p-3 mb-5 bg-body-tertiary rounded ">
-                    <img src="images/profile5.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Seydou Camara</h5>
-                        <h6>Motion & UI Designer</h6>
-                        <p class="card-text">
-                            Créateur d'animations Lottie et interfaces After Effects. Il donne vie aux produits digitaux
-                            avec du mouvement.
-                        </p>
-                        <hr>
-                        <p><strong>45 000</strong>FCFA/j</p>
-                        <a href="#" class="btn btn-primary">Voir le profil</a>
+                    <div class="card-f" style="width: 18rem; shadow p-3 mb-5 bg-body-tertiary rounded ">
+                        <img src="images/profile2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Awa Baldé</h5>
+                            <h6>Développeur Full-Stack</h6>
+                            <p class="card-text">Experte Figma et design system. Elle conçoit des interfaces intuitives
+                                centrées sur l'expérience utilisateur.
+                            </p>
+                            <hr>
+                            <p><strong>35 000</strong>FCFA/j</p>
+                            <a href="#" class="btn btn-light">Voir le profil</a>
+                        </div>
+                    </div>
+                    <div class="card-f" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
+                        <img src="images/pro2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rokhaya Faye</h5>
+                            <h6>Social Media Manager</h6>
+                            <p class="card-text">
+                                Stratège contenu sur Instagram et TikTok. Elle booste la visibilité des marques
+                                africaines
+                                sur le digital.
+                            </p>
+                            <hr>
+                            <p><strong>25 000</strong>FCFA/j</p>
+                            <a href="#" class="btn btn-light">Voir le profil</a>
+                        </div>
+                    </div>
+                    <div class="card-f" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
+                        <img src="images/profile3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Binta Kouyaté</h5>
+                            <h6>Rédactrice technique</h6>
+                            <p class="card-text">
+                                Spécialiste documentation API et tutoriels développeurs. Elle rend la tech accessible à
+                                tous
+                                les publics.
+                            </p>
+                            <hr>
+                            <p><strong>30 000</strong>FCFA</p>
+                            <a href="#" class="btn btn-light">Voir le profil</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
-                    <img src="images/profile6.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Falilou Gueye</h5>
-                        <p class="card-text">
-                            Experte React Native et Flutter. Elle livre des apps mobiles performantes pour iOS et
-                            Android en un temps record.
-                        </p>
-                        <hr>
-                        <p><strong>40 000</strong>FcFA/j</p>
-                        <a href="#" class="btn btn-primary">Voir le profil</a>
+                <div class="row d-flex justify-content-center d-grid gap-3  ">
+
+                    <div class="card-f" style="width: 18rem ; shadow p-3 mb-5 bg-body-tertiary rounded ">
+                        <img src="images/seydou.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Abou Sene</h5>
+                            <h6>DevOps Engineer</h6>
+                            <p class="card-text">
+                                Maîtrise Kubernetes, Terraform et AWS. Il automatise les déploiements et sécurise les
+                                infrastructures cloud.
+                            </p>
+                            <br>
+                            <hr>
+                            <p><strong>58 000</strong>FCFA/j</p>
+                            <a href="#" class="btn btn-light">Voir le profil</a>
+                        </div>
+                    </div>
+                    <div class="card-f" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
+                        <img src="images/profile4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Aïssatou Barry</h5>
+                            <h6>ML Engineer</h6>
+                            <p class="card-text">
+                                Spécialiste NLP et Hugging Face. Elle développe des modèles de langage adaptés aux
+                                contextes
+                                africains.
+                            </p>
+                            <hr>
+                            <p><strong>60 000</strong>FCFA</p>
+                            <a href="#" class="btn btn-light">Voir le profil</a>
+                        </div>
+                    </div>
+                    <div class="card-f" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
+                        <img src="images/profile1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Karim Diallo</h5>
+                            <p class="card-text">
+                                Spécialiste React & Node.js avec 6 ans d'expérience. Passionné par les architectures
+                                scalables et les APIs RESTful.
+                            </p>
+
+                            <hr>
+                            <p><strong>35 000</strong>FCFA/j</p>
+                            <a href="#" class="btn btn-light">Voir le profil</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
-                    <img src="images/profile7.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Baye ASsane</h5>
-                        <h6>Social Media Manager</h6>
-                        <p class="card-text">
-                            Stratège contenu sur Instagram et TikTok. Elle booste la visibilité des marques africaines
-                            sur le digital.
-                        </p>
-                        <a href="#" class="btn btn-primary">Voir le profil</a>
+                <div class="row d-flex justify-content-center d-grid gap-3  ">
+
+                    <div class="card-f" style="width: 18rem; shadow p-3 mb-5 bg-body-tertiary rounded ">
+                        <img src="images/profile5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Seydou Camara</h5>
+                            <h6>Motion & UI Designer</h6>
+                            <p class="card-text">
+                                Créateur d'animations Lottie et interfaces After Effects. Il donne vie aux produits
+                                digitaux
+                                avec du mouvement.
+                            </p>
+                            <hr>
+                            <p><strong>45 000</strong>FCFA/j</p>
+                            <a href="#" class="btn btn-light">Voir le profil</a>
+                        </div>
+                    </div>
+                    <div class="card-f" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
+                        <img src="images/profile6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Falilou Gueye</h5>
+                            <p class="card-text">
+                                Experte React Native et Flutter. Elle livre des apps mobiles performantes pour iOS et
+                                Android en un temps record.
+                            </p>
+                            <hr>
+                            <p><strong>40 000</strong>FcFA/j</p>
+                            <a href="#" class="btn btn-light">Voir le profil</a>
+                        </div>
+                    </div>
+                    <div class="card-f" style="width: 18rem;shadow p-3 mb-5 bg-body-tertiary rounded ">
+                        <img src="images/profile7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Baye ASsane</h5>
+                            <h6>Social Media Manager</h6>
+                            <p class="card-text">
+                                Stratège contenu sur Instagram et TikTok. Elle booste la visibilité des marques
+                                africaines
+                                sur le digital.
+                            </p>
+                            <br>
+                            <hr>
+                            <a href="#" class="btn btn-light">Voir le profil</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-    </section>
-    <footer>
-        <p>© AfriTalent — Fait avec soin en Afrique</p>
-    </footer>
-    <!-- Le contenu de la page sera ajoute ici -->
-    <!-- Bootstrap 5 via CDN : script JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Votre script JavaScript -->
-    <script src="js/main.js"></script>
+        </section>
+        <footer class="fotfre">
+            <p>© AfriTalent — Fait avec soin en Afrique</p>
+        </footer>
+        <!-- Le contenu de la page sera ajoute ici -->
+        <!-- Bootstrap 5 via CDN : script JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Votre script JavaScript -->
+        <script src="js/main.js"></script>
 
 </body>
 

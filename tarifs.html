@@ -9,13 +9,27 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Votre feuille de style personnelle -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Story+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <HEader>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header>
+        <nav class="navbar  navbar-expand-lg ">
             <div class="container-fluid">
-                <img src="images/logo1.png" width="100" height="100">
+                <div class="logo">
+                    <nav class="af">
+                        <h1>Afri</h1>
+                    </nav>
+                    <nav class="tal">
+                        <h3>Talent</h3>
+                    </nav>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,24 +53,22 @@
                     </ul> -->
                     <!-- je suis alles dans le css pour placer mes lien au centre -->
                     <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" aria-current="page" href="index.html">Accueil</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="freelances.html">Freelances</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="freelances.html">Freelances</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="about.html">A propos</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="about.html">A propos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="tarifs.html">Tarifs</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="tarifs.html">Tarifs</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contacte</a>
+                        <li class="nav-item nav-items">
+                            <a class="nav-link colli active" href="contact.html">Contacte</a>
                         </li>
-                        <button>
-                            rejoindre AfriTalent
-                        </button>
+
                         <!-- j'ai pas besoin de ça -->
                         <!-- <li class="nav-item">
                             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -64,302 +76,221 @@
                     </ul>
                 </div>
             </div>
+            <div class="baf">
+                <button class="button">
+                    rejoindre AfriTalent
+                </button>
+            </div>
         </nav>
-    </HEader>
-    <section id="tarifs">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Gratuit</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Pour démarrer et explorer la plateforme sans engagement.</h6>
-                <div style="display: flex; align-items: baseline; gap: 4px;">
-                    <h5 style="color: #198754; margin: 0;">0 FCFA</h5>
-                    <p style="margin: 0;">/mois</p>
-                </div>
-                <hr>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </div>
-                    <p>Profil freelance <strong></strong></p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </div>
-                    <p>3 candidatures / mois</p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </div>
-                    <p>Accès au catalogue missions</p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#FDECEA; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#D03A2F" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" y1="6" x2="6" y2="18" />
-                            <line x1="6" y1="6" x2="18" y2="18" />
-                        </svg>
-                    </div>
-                    <p>Mise en avant du profil</p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#FDECEA; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#D03A2F" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" y1="6" x2="6" y2="18" />
-                            <line x1="6" y1="6" x2="18" y2="18" />
-                        </svg>
-                    </div>
-                    <p>Messagerie avancée</p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#FDECEA; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#D03A2F" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" y1="6" x2="6" y2="18" />
-                            <line x1="6" y1="6" x2="18" y2="18" />
-                        </svg>
-                    </div>
-                    <p>Statistiques de profil</p>
-                </div>
-                <button>Commencer <br> gratuitement</button>
-            </div>
-        </div>
 
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Populaire</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Pour les freelances sérieux qui veulent maximiser leurs
-                    opportunités.</h6>
-                <div style="display: flex; align-items: baseline; gap: 4px;">
-                    <h5 style=" margin: 0"> FCFA 9 900</h5>
-                    <p style="margin: 0;">/mois</p>
-                </div>
-                <hr>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
+
+        </header>
+        <section id="tarifs">
+            <div class="d-flex tarif">
+                <div>
+                    <div class="card-y card-w  " >
+                        <div class="card-body ">
+                            <h5 class="card-title">Gratuit</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Pour démarrer et explorer la plateforme sans
+                                engagement.
+                            </h6>
+                            <div class="chif-tarif" >
+                                <h5>0 FCFA</h5>
+                                <p style="margin: 0;">/mois</p>
+                            </div>
+                            <hr>
+                            <div class="d-flex chec ">
+                             <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                                <p class="chec">Profil freelance <strong></strong></p>
+                            </div>
+                            <div class="chec">
+                               <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                                <p>3 candidatures / mois</p>
+                            </div>
+                            <div class="chec">
+                               <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                                <p>Accès au catalogue missions</p>
+                            </div>
+                            <div class="chec">
+                                <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                                <p>Mise en avant du profil</p>
+                            </div>
+                        </div>
+                        <div class="chec">
+                            <i class="fa-solid fa-xmark" style="color: rgb(226, 14, 14);"></i>
+                            <p>Messagerie avancée</p>
+                        </div>
+                        <div class="chec">
+                           <i class="fa-solid fa-xmark" style="color: rgb(226, 14, 14);"></i>
+                            <p>Statistiques de profil</p>
+                        </div>
+                        <button>Commencer <br> gratuitement</button>
                     </div>
-                    <p>Profil mis en avant dans les résultats <strong></strong></p>
                 </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
+
+                <div class="card-y card-n " >
+                    <div class="card-body card-q">
+                        <h5 class="card-titlee">Populaire</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Pour les freelances sérieux qui veulent maximiser
+                            leurs
+                            opportunités.</h6>
+                        <div class="chif-tarif">
+                            <h5 style=" margin: 0"> FCFA 9 900</h5>
+                            <p style="margin: 0;">/mois</p>
+                        </div>
+                        <hr>
+                        <div class="chec">
+                           <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                            <p>Profil mis en avant dans les résultats <strong></strong></p>
+                        </div>
+                        <div class="chec">
+                            <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                            <p>Candidatures illimitées</p>
+                        </div>
+                        <div class="chec">
+                           <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                            <p>Messagerie avancée + notifications</p>
+                        </div>
+                        <div class="chec">
+                           <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                            <p>Statistiques & analytics de profil</p>
+                        </div>
+                        <div class="chec">
+                             <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                            <p>Badge « Vérifié » sur le profil</p>
+                        </div>
+                        <div class="chec">
+                            <i class="fa-solid fa-xmark" style="color: rgb(226, 14, 14);"></i>
+                            <p>Accès API & intégrations</p>
+                        </div>
+                        <button>Demarer l'essai gratuitement</button>
                     </div>
-                    <p>Candidatures illimitées</p>
                 </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
+                <div class="card-y card-w " >
+                    <div class="card-body">
+                        <h5 class="card-title">Entreprise</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Pour les équipes qui recrutent régulièrement des
+                            freelances
+                            qualifiés.</h6>
+                        <div class="chif-tarif">
+                            <h5 style=" margin: 0"> FCFA 39 900</h5>
+                            <p style="margin: 0;">/mois</p>
+                        </div>
+                        <hr>
+                        <div class="chec">
+                        <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                            <p>Tout le plan Pro inclus </p>
+                        </div>
+                        <div class="chec">
+                            <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                            <p>Postes illimités à pourvoir</p>
+                        </div>
+                        <div class="chec">
+                           <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                            <p>Tableau de bord RH & reporting</p>
+                        </div>
+                        <div class="chec">
+                           <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                            <p>Accès API & intégrations tierces</p>
+                        </div>
+                        <div class="chec">
+                           <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                            <p>Account manager dédié</p>
+                        </div>
+                        <div class="chec">
+                            <i class="fa-solid fa-check" style="color: rgb(99, 230, 190);"></i>
+                            <p>Support prioritaire 24/7</p>
+                        </div>
+                        <button>Contacter l'equipe commercial</button>
                     </div>
-                    <p>Messagerie avancée + notifications</p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </div>
-                    <p>Statistiques & analytics de profil</p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </div>
-                    <p>Badge « Vérifié » sur le profil</p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#FDECEA; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#D03A2F" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" y1="6" x2="6" y2="18" />
-                            <line x1="6" y1="6" x2="18" y2="18" />
-                        </svg>
-                    </div>
-                    <p>Accès API & intégrations</p>
-                </div>
-                <button>Demarer l'essai gratuitement</button>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Entreprise</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Pour les équipes qui recrutent régulièrement des freelances
-                    qualifiés.</h6>
-                <div style="display: flex; align-items: baseline; gap: 4px;">
-                    <h5 style=" margin: 0"> FCFA 39 900</h5>
-                    <p style="margin: 0;">/mois</p>
-                </div>
-                <hr>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </div>
-                    <p>Tout le plan Pro inclus </p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </div>
-                    <p>Postes illimités à pourvoir</p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </div>
-                    <p>Tableau de bord RH & reporting</p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </div>
-                    <p>Accès API & intégrations tierces</p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </div>
-                    <p>Account manager dédié</p>
-                </div>
-                <div class="svg">
-                    <div
-                        style="width:16px; height:16px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-                        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#1D9E75" stroke-width="3"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </div>
-                    <p>Support prioritaire 24/7</p>
-                </div>
-                <button>Contacter l'equipe commercial</button>
-            </div>
-        </div>
-    </section>
-    <section id="faq">
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                       Comment fonctionne l'inscription sur Afritalent
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">L'inscription est simple et rapide. Créez votre compte avec votre email,  choisissez votre rôle (freelance ou entreprise), <br> complétez votre profil en quelques étapes, et vous êtes prêt. <br> Le plan gratuit ne nécessite aucune carte bancaire.</div>
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Puis-je changer de plan a tout moment
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Oui, vous pouvez passer à un plan supérieur ou inférieur à tout moment depuis votre tableau de bord. <br> Le changement prend effet immédiatement et la facturation est ajustée au prorata pour le mois en cours.</div>
+        </section>
+        <section id="faq">
+            <div class="accordion accordion-flush tar " id="accordionFlushExample">
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Comment fonctionne l'inscription sur Afritalent
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">L'inscription est simple et rapide. Créez votre compte avec votre
+                            email, choisissez votre rôle (freelance ou entreprise), <br> complétez votre profil en
+                            quelques étapes, et vous êtes prêt. <br> Le plan gratuit ne nécessite aucune carte bancaire.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Puis-je changer de plan a tout moment
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Oui, vous pouvez passer à un plan supérieur ou inférieur à tout
+                            moment depuis votre tableau de bord. <br> Le changement prend effet immédiatement et la
+                            facturation est ajustée au prorata pour le mois en cours.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Comment AfriTalent protege t'il les paillement
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">AfriTalent utilise un système d'escrow : l'entreprise dépose les
+                            fonds en début de mission, <br> et le freelance les reçoit uniquement à la validation de la
+                            livraison. <br> Ce mécanisme protège les deux parties et garantit des transactions
+                            sécurisées.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Quelle commission AfriTalent prend_t'elle en cahrge
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">AfriTalent prélève une commission de 10% sur chaque mission pour les
+                            comptes gratuits, 7% pour le plan Pro, et 5% pour le plan Entreprise. Cette commission
+                            couvre la sécurisation des paiements, le support et l'infrastructure.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Les profil freelance sont t'il verifier
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Oui. Chaque freelance passe par un processus de vérification
+                            d'identité et de compétences. Les profils Pro bénéficient en plus d'un badge « Vérifié »
+                            visible par les entreprises, ce qui augmente leur taux de sélection sur les missions. <br>
+                            Ce mécanisme protège les deux parties et garantit des transactions sécurisées.</div>
+                    </div>
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Comment AfriTalent protege t'il les paillement
-                    </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">AfriTalent utilise un système d'escrow : l'entreprise dépose les fonds en début de mission, <br> et le freelance les reçoit uniquement à la validation de la livraison. <br> Ce mécanisme protège les deux parties et garantit des transactions sécurisées.</div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Quelle commission AfriTalent prend_t'elle en cahrge
-                    </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">AfriTalent prélève une commission de 10% sur chaque mission pour les comptes gratuits, 7% pour le plan Pro, et 5% pour le plan Entreprise. Cette commission couvre la sécurisation des paiements, le support et l'infrastructure.</div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                       Les profil freelance sont t'il verifier
-                    </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Oui. Chaque freelance passe par un processus de vérification d'identité et de compétences. Les profils Pro bénéficient en plus d'un badge « Vérifié » visible par les entreprises, ce qui augmente leur taux de sélection sur les missions. <br> Ce mécanisme protège les deux parties et garantit des transactions sécurisées.</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Le contenu de la page sera ajoute ici -->
-    <!-- Bootstrap 5 via CDN : script JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Votre script JavaScript -->
-    <script src="js/main.js"></script>
+        </section>
+        <!-- Le contenu de la page sera ajoute ici -->
+        <!-- Bootstrap 5 via CDN : script JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Votre script JavaScript -->
+        <script src="js/main.js"></script>
 
 </body>
 
