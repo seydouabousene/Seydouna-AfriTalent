@@ -35,18 +35,29 @@
     font-weight: 400;
     font-style: normal;
     color: #8FB43A;
-    font-size: 20px;
+    font-size: 2rem;
     padding: 0px;
 }
 
 .tal {
     font-family: "Fascinate Inline", system-ui;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     color: #4B5943;
-    font-size: 90px;
-    padding: 0px;
-    margin: 0px -20px 0px 0px;
+    font-size: 2rem;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.hero-tag {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 14px;
+    border-radius: 99px;
+    background: #4F772D;
+    color: white;
+    margin-bottom: 1rem;
 }
 
 .baf {
@@ -81,6 +92,12 @@
     border-radius: 60px;
 }
 
+.hero-btns {
+    display: flex;
+    gap: 12px;
+    margin-top: 2rem;
+}
+
 .button {
     border-radius: 60px;
     background-color: #F59FBD;
@@ -101,7 +118,7 @@
     height: 100vh;
     align-items: center;
     margin: auto;
-    padding: auto;
+    padding: 0;
 }
 
 .heroo {
@@ -116,15 +133,33 @@
 
 .bi {
     display: flex;
+    align-items: center;
+    /* aligne tout sur la même ligne de base */
+    gap: 10px;
+    flex-wrap: wrap;
+    /* évite le débordement sur mobile */
+}
+
+.bi h1 {
+    margin: 0;
+    font-size: 2rem;
+    /* même taille que .af et .tal */
+    line-height: 1;
 }
 
 .bilo {
-    padding-left: 15px;
+    /* padding-left: 15px; */
+    display: flex;
+    align-items: center;
+    /* Afri et Talent alignés entre eux */
+    gap: 0;
+    /* pas d'espace entre les deux mots */
+
 }
 
 .story-script-regular {
     font-family: "Story Script", sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -187,20 +222,42 @@
 }
 
 .cole {
-    padding-top: 9rem;
+    padding-top: 2rem;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.1);
 }
-.pili h2{
+
+.cole .col {
+    border-right: 0.5px solid rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+}
+
+.cole .col:last-child {
+    border-right: none;
+    /* pas de bordure sur le dernier */
+}
+
+.cole h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #4F772D;
+    text-align: center;
+}
+
+.pili h2 {
     padding-left: 40rem;
     padding-top: 25px;
 }
-.pilli{
+
+.pilli {
     color: var(--couleurprinc);
     font-size: 50px;
 }
-.pili p{
+
+.pili p {
     padding-left: 36rem;
 }
-.pil{
+
+.pil {
     padding-left: 8rem;
 }
 
@@ -277,7 +334,7 @@
 }
 
 .card-a {
-    background-color:  #dacfc63b;
+    background-color: #dacfc63b;
     /* display: grid;
     grid-template-columns: 3,1fr;
     grid-gap: 3px;
@@ -303,10 +360,12 @@
     transform: translateY(-10px);
     transition: 3s;
 }
+
 /* cat de service_______________________________________________________________________________________________ */
-#cat_de_service{
+#cat_de_service {
     background-color: var(--couleur5);
 }
+
 .card-cat {
 
     padding: 5rem 5rem;
@@ -482,6 +541,7 @@
 #hero1 {
     background-color: var(--couleur6);
 }
+
 .d-flexx {
     padding-top: 6rem;
 }
@@ -500,14 +560,15 @@
     transition: ease-in-out;
     overflow: hidden;
 }
-.card-f img{
+
+.card-f img {
     width: 100%;
     height: 350px;
     object-fit: cover;
     /* object-fit: recadre l'image sans deformation; */
     border-radius: 20px 20px 0 0;
     display: block;
-    
+
 }
 
 .card-f:hover {
