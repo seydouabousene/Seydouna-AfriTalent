@@ -20,12 +20,16 @@
 </head>
 
 <body>
-   <header>
-        <nav class="navbar  navbar-expand-lg ">
-            <div class="container-fluid">
-               <div class="logo">
-                   <nav class="af"><h1>Afri</h1></nav>
-                   <nav class="tal"><h3>Talent</h3></nav>
+  <header>
+        <nav class="navbar  navbar-expand-lg  " id="mainNav">
+            <div class="container-fluid ">
+                <div class="logo">
+                    <nav class="af">
+                        <h1>Afri</h1>
+                    </nav>
+                    <nav class="tal">
+                        <h3>Talent</h3>
+                    </nav>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,22 +69,28 @@
                         <li class="nav-item nav-items">
                             <a class="nav-link colli active" href="contact.html">Contacte</a>
                         </li>
-                        
+
                         <!-- j'ai pas besoin de ça -->
                         <!-- <li class="nav-item">
                             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                         </li> -->
                     </ul>
                 </div>
-            </div>
-            <div class="baf">
-                <button class="button">
-                    rejoindre AfriTalent 
-                </button>
+                <div class="baf" style="display:flex; align-items:center; gap:10px;">
+                    <!-- BOUTON DARK MODE -->
+                    <button id="darkToggle" title="Dark / Light mode">🌙</button>
+                   
+                </div>
+                <div class="baf">
+                    <button class="button">
+                        rejoindre AfriTalent
+                    </button>
+                </div>
             </div>
         </nav>
 
     </header>
+    <button id="backToTop" title="Retour en haut">↑</button>
     <section id="Notre-Histoire">
         <div class="Histoir">
             <div class="textehis">
