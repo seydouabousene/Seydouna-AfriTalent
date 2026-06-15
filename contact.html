@@ -92,16 +92,16 @@
     </header>
     <button id="backToTop" title="Retour en haut">↑</button>
     <section id="Contacte" class="fade-section">
-        <main class="d-flexx ">
+        <div class="d-flexx ">
             <h2 class="juss">Contacte</h2>
             <p class="juss">Contacter nous</p>
-        </main>
+        </div>
         <div>
             <div class="d-flex justify-content-around">
                 <div class="con">
                     <div class="conn ">
                         <div class="d-flex">
-                            <img src="images/iconemes.png" width="90px" alt="">
+                            <img src="images/iconemes.png" class="derrc" alt="icon">
                             <div class="pho">
                                 <p>EMAIL</p>
                                 <h6>contact@AfriTalent.io</h6>
@@ -112,7 +112,7 @@
                     <hr>
                     <div class="conn">
                         <div class="d-flex">
-                            <img src="images/tel.png" width="90px" alt="">
+                            <img src="images/tel.png" class="derrc" alt="iconn">
                             <div class="pho">
                                 <p>TELEPHONE </p>
                                 <h6>77 127 2913</h6>
@@ -123,7 +123,7 @@
                     <hr>
                     <div class="conn">
                         <div class="d-flex">
-                            <img src="images/locali.png" width="90px" alt="">
+                            <img src="images/locali.png" class="derrc" alt="icon">
                             <div class="phon">
                                 <p>ouest foir</p>
                                 <h6>rue 100 talli <br> wally, en face <br> foir</h6>
@@ -134,7 +134,7 @@
                     <hr>
                     <div class="conn">
                         <div class="d-flex">
-                            <img src="images/icone.png" width="90px" alt="">
+                            <img src="images/icone.png" class="derrc" alt="icon">
                             <div class="pho">
                                 <p>HORAIRE</p>
                                 <h6>Lun–Ven, 9h–18h</h6>
@@ -176,22 +176,22 @@
                 <div class="cafe">
                     <form id="contactForm" action="">
                         <div class="caf">
-                            <label class="" for=""> Prenom</label>
-                            <input type="text" id="prenom" name="" id="">
+                            <label> Prenom</label>
+                            <input type="text" id="prenom">
                             <small class="error"></small>
                         </div>
                         <div class="caf">
-                            <label for=""> Nom</label>
-                            <input type="text" id="nom" name="" id="">
+                            <label> Nom</label>
+                            <input type="text" id="nom">
                             <small class="error"></small>
                         </div>
                         <div class="caf">
-                            <label for="">Email</label>
+                            <label>Email</label>
                             <input type="email" id="email">
                             <small class="error"></small>
                         </div>
                         <div class="caf cafd">
-                            <select name="" id="sujet">
+                            <select id="sujet">
                                 <option value="" disabled selected>Selectionner un Sujet</option>
                                 <option value="freelance">Je suis freelance</option>
                                 <option value="recherche">Je cherche un freelance</option>
@@ -207,9 +207,9 @@
                         </div>
                         <div class="caff">
                             <button type="submit"> Envoyer</button>
-                            <button  type="reset">Anuler</button>
+                            <button type="reset">Anuler</button>
                         </div>
-                         <p id="successMessage"></p>
+                        <p id="successMessage"></p>
                     </form>
                 </div>
 
@@ -221,7 +221,7 @@
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
-
+        </div>
     </section>
     <!-- Le contenu de la page sera ajoute ici -->
     <!-- Bootstrap 5 via CDN : script JavaScript -->

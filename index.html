@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Votre feuille de style personnelle -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- le google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
@@ -16,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Story+Script&display=swap"
         rel="stylesheet">
+    <!-- Font Awesome — bibliothèque d'icônes -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
@@ -23,9 +25,13 @@
 <body>
     <!-- Le contenu de la page sera ajoute ici -->
     <!-- Bootstrap 5 via CDN : script JavaScript -->
+    <!-- =============================
+       NAVBAR — Navigation principale
+       ============================= -->
     <header>
         <nav class="navbar navbar-expand-lg" id="mainNav">
             <div class="container-fluid ">
+                <!-- Logo AfriTalent -->
                 <div class="logo">
                     <nav class="af">
                         <h1>Afri</h1>
@@ -34,6 +40,7 @@
                         <h3>Talent</h3>
                     </nav>
                 </div>
+                <!-- Bouton hamburger visible sur mobile -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -56,6 +63,7 @@
                         </li>
                     </ul> -->
                     <!-- je suis alles dans le css pour placer mes lien au centre -->
+                    <!-- Liens de navigation -->
                     <ul class="nav justify-content-center">
                         <li class="nav-item nav-items">
                             <a class="nav-link colli active" aria-current="page" href="index.html">Accueil</a>
@@ -79,10 +87,11 @@
                         </li> -->
                     </ul>
                 </div>
+
                 <div class="baf" style="display:flex; align-items:center; gap:10px;">
                     <!-- BOUTON DARK MODE -->
                     <button id="darkToggle" title="Dark / Light mode">🌙</button>
-                   
+
                 </div>
                 <div class="baf">
                     <button class="button">
@@ -93,12 +102,18 @@
         </nav>
 
     </header>
+    <!-- Bouton retour en haut -->
     <button id="backToTop" title="Retour en haut">↑</button>
+    <!-- =============================
+       HERO — Section principale
+       ============================= -->
     <section id="hero" class="fade-section">
         <div class="heroo">
-            <main>
+            <div>
+                <!-- Texte de gauche -->
                 <div class="bien ">
                     <span class="hero-tag">🌍 La plateforme freelance africaine #1</span>
+                    <!-- Titre principal -->
                     <div class="bi">
                         <h1>Bienvenue sur</h1>
                         <div class="logo bilo">
@@ -106,12 +121,13 @@
                             <span class="tal">Talent</span>
                         </div>
                     </div>
+                    <!-- Sous-titre -->
                     <h3 class="story-script-regular">
                         Votre partenaire en développement <strong class="full">web full <br> stack</strong>
                         Transformez Vos Idées en Réalité Digitale
                     </h3>
                 </div>
-                <main class="butcontaine">
+                <div class="butcontaine">
 
                     <button class="but1 but11">
                         Je suis Freelances
@@ -120,34 +136,36 @@
                         Je cherche un Freelances
                     </button>
 
-                </main>
+                </div>
                 <!-- <div>
                     <img src="images/arrirepl.jpg" alt="">
                 </div> -->
                 <!-- <div>
                     <img src="images/a.jpg" alt="">
                 </div> -->
-            </main>
-            <div class="imagehero">
-                <img src="images/a.png" width="205px">
+            </div>
+            <!-- Image de droite -->
+            <div class="imagehero" >
+                <img src="images/a.png" class="der" alt="heroimage">
             </div>
         </div>
+        <!-- Statistiques clés -->
         <div class="containe cole">
             <div class="container   text-center">
                 <div class="row ">
                     <div class="col">
                         <h4>
-                           <span id="count-freelances">0</span> <br> Freelances
+                            <span id="count-freelances">0</span> <br> Freelances
                         </h4>
                     </div>
                     <div class="col">
                         <h4>
-                           <span id="count-entreprises" >0</span> <br> Entreprises
+                            <span id="count-entreprises">0</span> <br> Entreprises
                         </h4>
                     </div>
                     <div class="col">
                         <h4>
-                            <span id="count-missions" >0</span> <br> Missions realise
+                            <span id="count-missions">0</span> <br> Missions realise
                         </h4>
                     </div>
                 </div>
@@ -155,6 +173,9 @@
         </div>
 
     </section>
+    <!-- =========================================
+             le section comment sa marche
+         =========================================     -->
     <section id="c_ça_marche" class="fade-section" style="overflow: hidden;">
 
         <div class="pili">
@@ -165,11 +186,14 @@
             </p>
 
         </div>
+        <!-- =======================
+                  les Etapes
+         ============================== -->
         <div class="comment">
             <div class="card-a ca ">
                 <div class="etape">
                     <p>Étape 01</p>
-                    <img src="images/icone.png" width="100px">
+                    <img src="images/icone.png" class="derr"  alt="icone">
                 </div>
                 <h3>Inscription en 30 secondes</h3>
                 <p>Créez votre compte gratuitement sans carte bancaire. <br> Renseignez simplement votre email et
@@ -179,7 +203,7 @@
             <div class="card-b cb">
                 <div class="etape">
                     <p>Étape 02</p>
-                    <img src="images/iconemes.png" width="100px">
+                    <img src="images/iconemes.png" class="derr" alt="icone">
                 </div>
                 <h3>Posez votre question</h3>
                 <p>Tapez n'importe quelle question, dans votre langue, <br> aussi précise ou vague que vous voulez. <br>
@@ -189,7 +213,7 @@
             <div class="card-b cc">
                 <div class="etape">
                     <p>Étape 03</p>
-                    <img src="images/iconezig.png" width="100px">
+                    <img src="images/iconezig.png" class="derr" alt="zig">
                 </div>
                 <h3>Obtenez une réponse</h3>
                 <p>Claire, structurée, et adaptée à votre besoin. <br> En quelques secondes.</p>
@@ -197,7 +221,7 @@
             <div class="etape4 card-a cd">
                 <div class="etape ">
                     <p>Étape 04</p>
-                    <img src="images/iconeper.jpg" width="100px">
+                    <img src="images/iconeper.jpg" class="derr" alt="icone">
                 </div>
                 <h3>Itérez et affinez</h3>
                 <p>Posez des questions de suivi, demandez <br> des exemples, changez de format. <br> La conversation
@@ -207,16 +231,19 @@
 
 
     </section>
+    <!-- ================================
+           section services
+    =================================== -->
     <section class="fade-section" id="cat_de_service">
         <div class="pili">
             <h2>
                 Toutes les formations
             </h2>
         </div>
-        <main class="card-cat">
+        <div class="card-cat">
             <div>
                 <div class="card" style="width: 18rem;">
-                    <img src="images/abou.png" class="card-img-top" alt="...">
+                    <img src="images/abou.png" class="card-img-top" alt="web">
                     <div class="card-body">
                         <h5 class="card-title">Développement web</h5>
                         <p class="card-text">284 freelances disponibles.</p>
@@ -224,7 +251,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="images/abou2.png" class="card-img-top" alt="..." width="">
+                    <img src="images/abou2.png" class="card-img-top" alt="design" >
                     <div class="card-body">
                         <h5 class="card-title">Design UI/UX</h5>
                         <p class="card-text">157 freelances disponibles.</p>
@@ -235,7 +262,7 @@
             </div>
             <div>
                 <div class="card" style="width: 18rem;">
-                    <img src="images/abou1.png" class="card-img-top" alt="...">
+                    <img src="images/abou1.png" class="card-img-top" alt="UI">
                     <div class="card-body">
                         <h5 class="card-title">Marketing digital</h5>
                         <p class="card-text">312 freelances disponibles.</p>
@@ -243,7 +270,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="images/chat.png" class="card-img-top" alt="...">
+                    <img src="images/chat.png" class="card-img-top" alt="IA">
                     <div class="card-body">
                         <h5 class="card-title">Data & IA</h5>
                         <p class="card-text">98 freelances disponibles.</p>
@@ -253,7 +280,7 @@
             </div>
             <div>
                 <div class="card" style="width: 18rem;">
-                    <img src="images/aboutech.png" class="card-img-top" alt="...">
+                    <img src="images/aboutech.png" class="card-img-top" alt="tech">
                     <div class="card-body">
                         <h5 class="card-title">Rédaction tech</h5>
                         <p class="card-text">73 freelances disponibles.</p>
@@ -261,7 +288,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="images/abou3.png" class="card-img-top" alt="...">
+                    <img src="images/abou3.png" class="card-img-top" alt="dev">
                     <div class="card-body">
                         <h5 class="card-title">DevOps & Cloud</h5>
                         <p class="card-text">121 freelances disponible.</p>
@@ -269,7 +296,7 @@
                     </div>
                 </div>
             </div>
-        </main>
+        </div>
         <!-- <nav class="card-cat">
             <div class="card-ser">
                 <img src="images/abou.png" width="100">
@@ -303,14 +330,53 @@
             </div>
         </nav> -->
     </section>
-    <section id="TÉMOIGNAGES" class="py-5" class="fade-section">
+    <!-- ========================================
+              section comment sa marche
+    ============================================= -->
+    <section id="TÉMOIGNAGES" class="py-5 fade-section" >
         <h3 class="text-ligh text-center">Mes témoignages</h3>
         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
                         <div class="card-h" style="width: 18rem;">
-                            <img src="images/profile4.jpg" class="card-img-top" alt="...">
+                            <img src="images/profile4.jpg" class="card-img-top" alt="bintou">
+                            <div class="card-body">
+                                <h5 class="card-title">Bintou Seck</h5>
+                                <p class="card-text">Grâce à cette plateforme, j'ai trouvé des missions régulières en
+                                    moins de deux semaines <br> .
+                                    Les
+                                    clients sont sérieux, les paiements sont ponctuels et l'interface est vraiment
+                                    agréable à <br>
+                                    utiliser. Je recommande à tous les devs qui cherchent à se lancer en freelance.</p>
+                                    <img src="images/etoiles.png" class="derr" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="card-h" style="width: 18rem;">
+                            <img src="images/pro3.jpg" class="card-img-top" alt="cheikh">
+                            <div class="card-body">
+                                <h5 class="card-title">Cheikh</h5>
+                                <p class="card-text">Grâce à cette plateforme, j'ai trouvé des missions régulières en
+                                    moins de deux semaines <br> .
+                                    Les
+                                    clients sont sérieux, les paiements sont ponctuels et l'interface est vraiment
+                                    agréable à <br>
+                                    utiliser. Je recommande à tous les devs qui cherchent à se lancer en freelance.</p>
+                                     <img src="images/etoiles.png" class="derr" alt="etoiles">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="card-h" style="width: 18rem;">
+                            <img src="images/profile3.jpg" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Grâce à cette plateforme, j'ai trouvé des missions régulières en
@@ -319,32 +385,7 @@
                                     clients sont sérieux, les paiements sont ponctuels et l'interface est vraiment
                                     agréable à <br>
                                     utiliser. Je recommande à tous les devs qui cherchent à se lancer en freelance.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row justify-content-center">
-                        <div class="card-h" style="width: 18rem;">
-                            <img src="images/pro3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card’s content.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row justify-content-center">
-                        <div class="card-h" style="width: 18rem;">
-                            <img src="images/profile3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card’s content.</p>
+                                     <img src="images/etoiles.png" class="derr" alt="etoiles">
                             </div>
                         </div>
 
@@ -471,8 +512,11 @@
             </button>
         </div> -->
     </section>
+    <!-- =================================
+                  section CTA 
+         ================================ -->
     <section id="CTA_appele" class="fade-section">
-        <main class="cta ">
+        <div class="cta ">
             <div class="buta">
                 <button class="butcta butm butmm">Rejoignez la communauté</button>
             </div>
@@ -493,8 +537,11 @@
                 </div>
             </div>
 
-        </main>
+        </div>
     </section>
+    <!--=========================== 
+               le footer
+     =============================== -->
     <section id="footer">
         <footer>
             <div class="row">
@@ -531,7 +578,7 @@
                         contact@afritalent.com <br>
                         +221 77 000 00 00 <br>
                         Dakar, Sénégal <br>
-                        <img src="images/reseaux.png" width="150px" alt="">
+                        <img src="images/reseaux.png" class="dern" alt="reseaux">
                     </p>
                 </div>
             </div>
@@ -574,8 +621,8 @@
         </div>
     </section> -->
     <!-- <section id="categ-d-serv">
-        <main>
-            <main>
+        <div>
+            <div>
                 <div>
                     <img src="images/html.jpg" alt="">
                     <div>
@@ -584,13 +631,13 @@
                             comprendre Boostrap</p>
                     </div>
                 </div>
-            </main>
+            </div>
             <div>
                 <div>
                     <img src="images/js.jpg" alt="">
                 </div>
                 <div>
-                    <h4>JavaScript--Les bases</h4>
+                    <h4>JavaScript-Les bases</h4>
                     <p>Apprendre JavaScript de zéro: variable <br> fonctions, DOM et evénements. <br>Du débutant a
                         l'intermediaire.</p>
                 </div>
@@ -628,7 +675,7 @@
                 </div>
             </div>
 
-        </main>
+        </div>
 
     </section> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

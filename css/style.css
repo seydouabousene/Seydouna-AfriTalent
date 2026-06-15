@@ -86,7 +86,21 @@ body {
 }
 
 
-
+.der{
+    width: 205px;
+}
+.derr{
+    width: 100px;
+}
+.dern{
+    width: 150px;
+}
+.derra{
+    width: 200px;
+}
+.derrc{
+    width: 90px;
+}
 
 
 /* ---- NAVBAR AU SCROLL ---- */
@@ -148,8 +162,7 @@ body.dark-mode #faq {
 }
 
 body.dark-mode #Contacte {
-    background: linear-gradient(200deg, #514e40, #48300ebd);
-    !important;
+    background: linear-gradient(200deg, #514e40, #48300ebd) !important;
 }
 
 body.dark-mode .accordion-item {
@@ -726,10 +739,6 @@ body {
     transform: scale(1.1);
 }
 
-.containe {
-    /* background-color: #4F772D; */
-
-}
 
 .cole {
     padding-top: 2rem;
@@ -803,7 +812,7 @@ body {
     justify-content: center;
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-row: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
     gap: 35px;
     padding: 3rem 5rem;
     width: 100%;
@@ -2122,7 +2131,6 @@ body {
 .caf label {
     padding-right: 15px;
     text-decoration: underline;
-    text-decoration: ;
 }
 
 .caf input {
