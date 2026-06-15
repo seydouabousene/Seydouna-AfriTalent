@@ -138,18 +138,22 @@ body.dark-mode .card-h {
     color: #f0f0f0;
     border-color: #444;
 }
-body.dark-mode .card-f{
+
+body.dark-mode .card-f {
     background: rgba(0, 0, 0, 0.614) !important;
 }
-body.dark-mode #faq  {
-  background-color: #28240e !important;
+
+body.dark-mode #faq {
+    background-color: #28240e !important;
 }
-body.dark-mode #Contacte  {
-  background: linear-gradient(200deg, #514e40, #48300ebd); !important;
+
+body.dark-mode #Contacte {
+    background: linear-gradient(200deg, #514e40, #48300ebd);
+    !important;
 }
 
 body.dark-mode .accordion-item {
-    background: #3d420b ;
+    background: #3d420b;
     color: #f0f0f0;
     border-color: #444;
 }
@@ -158,29 +162,37 @@ body.dark-mode .accordion-button {
     background: #333;
     color: #f0f0f0;
 }
-body.dark-mode #hero  {
-  background-color: #28240e !important;
+
+body.dark-mode #hero {
+    background-color: #28240e !important;
 }
-body.dark-mode #tarifs  {
-  background-color: #303404 !important;
+
+body.dark-mode #tarifs {
+    background-color: #303404 !important;
 }
-body.dark-mode #Notre-Histoire  {
-  background-color: #28240e !important;
+
+body.dark-mode #Notre-Histoire {
+    background-color: #28240e !important;
 }
+
 body.dark-mode #c_ça_marche {
-  background-color: #3d352a !important;
+    background-color: #3d352a !important;
 }
+
 body.dark-mode #lequipe {
-  background-color: #3d352a !important;
+    background-color: #3d352a !important;
 }
-body.dark-mode #cat_de_service{
-  background-color: #64543e !important;
+
+body.dark-mode #cat_de_service {
+    background-color: #64543e !important;
 }
-body.dark-mode .card-cat{
-  background-color: #64543e !important;
+
+body.dark-mode .card-cat {
+    background-color: #64543e !important;
 }
-body.dark-mode #Nos_valeurs{
-  background-color: #525351 !important;
+
+body.dark-mode #Nos_valeurs {
+    background-color: #525351 !important;
 }
 
 /* BOUTON DARK MODE */
@@ -2015,7 +2027,7 @@ body {
     margin: 0;
 }
 
-.juss{
+.juss {
     padding-left: 38rem;
 }
 
@@ -2422,4 +2434,23 @@ body {
         width: 80% !important;
         height: 400px;
     }
+}
+
+/*  FADE-IN AU SCROLL */
+
+.fade-section {
+    opacity: 0;
+    /* invisible au départ */
+    transform: translateY(40px);
+    /* décalé vers le bas */
+    transition: opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+/* Classe ajoutée par JS quand la section est visible */
+.fade-section.visible {
+    opacity: 1;
+    /* devient visible */
+    transform: translateY(0);
+    /* remonte à sa position normale */
 }
