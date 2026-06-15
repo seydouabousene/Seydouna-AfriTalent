@@ -92,6 +92,13 @@
 
     </header>
     <button id="backToTop" title="Retour en haut">↑</button>
+    <div class=" d-flexx text-center mb-4">
+    <button class="btn btn-light filter-btn" data-filter="all">Tous</button>
+    <button class="btn btn-light filter-btn" data-filter="dev">Développement</button>
+    <button class="btn btn-light filter-btn" data-filter="design">Design</button>
+    <button class="btn btn-light filter-btn" data-filter="marketing">Marketing</button>
+    <button class="btn btn-light filter-btn" data-filter="Engineer">Engineer</button>
+</div>
     <section id="hero1" class="py-5" class="fade-section">
         <div class="container">
             <div class="text-center mt-5 mb-5">
@@ -104,7 +111,7 @@
                 Des freelances qualifiés, disponibles et prêts à travailler sur vos projets dès aujourd'hui.
             </p> -->
             <div class="row g-5">
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 freelance-card" data-category="dev">
                     <div class="card-f p-3 rounded " style="width: 18rem;  ">
                         <img src="images/profile2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -120,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 freelance-card" data-category="marketing" >
                     <div class="card-f" style="width: 18rem;">
                         <img src="images/pro2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -137,12 +144,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 freelance-card" data-category="dev">
                     <div class="card-f" style="width: 18rem; ">
                         <img src="images/profile3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Binta Kouyaté</h5>
-                            <h6>Rédactrice technique</h6>
+                            <h6> developpeur</h6>
                             <p class="card-text">
                                 Spécialiste documentation API et tutoriels développeurs. Elle rend la tech
                                 accessible à
@@ -155,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 freelance-card" data-category="dev">
                     <div class="card-f" style="width: 18rem ; ">
                         <img src="images/seydou.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -173,7 +180,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 freelance-card" data-category="Engineer">
                     <div class="card-f" style="width: 18rem;">
                         <img src="images/profile4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -190,11 +197,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 freelance-card" data-category="design">
                     <div class="card-f" style="width: 18rem;">
                         <img src="images/profile1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Karim Diallo</h5>
+                            <h6>designer</h6>
                             <p class="card-text">
                                 Spécialiste React & Node.js avec 6 ans d'expérience. Passionné par les architectures
                                 scalables et les APIs RESTful.
@@ -207,7 +215,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 freelance-card" data-category="design">
                     <div class="card-f" style="width: 18rem; ">
                         <img src="images/profile5.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -224,11 +232,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 freelance-card" data-category="design">
                     <div class="card-f" style="width: 18rem; ">
                         <img src="images/profile6.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Falilou Gueye</h5>
+                            <h6>designer</h6>
                             <p class="card-text">
                                 Experte React Native et Flutter. Elle livre des apps mobiles performantes pour iOS
                                 et
@@ -240,12 +249,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4 freelance-card" data-category="marketing">
                     <div class="card-f" style="width: 18rem;">
                         <img src="images/profile7.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Baye ASsane</h5>
-                            <h6>Social Media Manager</h6>
+                            <h6>Marketing</h6>
                             <p class="card-text">
                                 Stratège contenu sur Instagram et TikTok. Elle booste la visibilité des marques
                                 africaines

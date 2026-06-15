@@ -20,7 +20,7 @@
 </head>
 
 <body>
-   <header>
+    <header>
         <nav class="navbar  navbar-expand-lg   " id="mainNav">
             <div class="container-fluid ">
                 <div class="logo">
@@ -79,7 +79,7 @@
                 <div class="baf" style="display:flex; align-items:center; gap:10px;">
                     <!-- BOUTON DARK MODE -->
                     <button id="darkToggle" title="Dark / Light mode">🌙</button>
-                   
+
                 </div>
                 <div class="baf">
                     <button class="button">
@@ -174,32 +174,42 @@
                 </div> -->
 
                 <div class="cafe">
-                    <form  action="">
+                    <form id="contactForm" action="">
                         <div class="caf">
                             <label class="" for=""> Prenom</label>
-                            <input type="text" name="" id="">
+                            <input type="text" id="prenom" name="" id="">
+                            <small class="error"></small>
                         </div>
                         <div class="caf">
                             <label for=""> Nom</label>
-                            <input type="text" name="" id="">
+                            <input type="text" id="nom" name="" id="">
+                            <small class="error"></small>
                         </div>
                         <div class="caf">
                             <label for="">Email</label>
-                            <input type="email">
+                            <input type="email" id="email">
+                            <small class="error"></small>
                         </div>
                         <div class="caf cafd">
-                            <select  name="" id="" >
+                            <select name="" id="sujet">
                                 <option value="" disabled selected>Selectionner un Sujet</option>
-                                <option value="">Je suis freelance</option>
-                                <option value="">Je cherche un freelance</option>
-                                <option value="">Autre</option>
+                                <option value="freelance">Je suis freelance</option>
+                                <option value="recherche">Je cherche un freelance</option>
+                                <option value="Autre">Autre</option>
                             </select>
+                            <small class="error"></small>
 
                         </div>
-                        <div class="caff">
-                            <button > Envoyer</button>
-                        <button >Anuler</button>
+                        <div class="caf">
+                            <label>Message</label>
+                            <textarea id="message"></textarea>
+                            <small class="error"></small>
                         </div>
+                        <div class="caff">
+                            <button type="submit"> Envoyer</button>
+                            <button  type="reset">Anuler</button>
+                        </div>
+                         <p id="successMessage"></p>
                     </form>
                 </div>
 

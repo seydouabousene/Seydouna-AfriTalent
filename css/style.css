@@ -2092,6 +2092,19 @@ body {
     transform: scale(1.1);
     border: 2px solid rgba(178, 158, 121, 0.809);
 } */
+
+.error {
+    color: red;
+    font-size: 14px;
+    display: block;
+}
+
+#successMessage {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 .cafe {
     display: block;
     border: 2px solid wheat;
@@ -2454,3 +2467,4 @@ body {
     transform: translateY(0);
     /* remonte à sa position normale */
 }
+

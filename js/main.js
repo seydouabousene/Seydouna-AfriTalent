@@ -137,3 +137,83 @@ const surveillantChiffres = new IntersectionObserver(function(entries) {
 });
 
 if (sectionChiffres) surveillantChiffres.observe(sectionChiffres);
+// le filtrage__________________________________________________________________________________
+const filterButtons = document.querySelectorAll(".filter-btn");
+const cards = document.querySelectorAll(".freelance-card");
+
+filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+
+        const category = button.dataset.filter;
+
+        cards.forEach(card => {
+
+            if (
+                category === "all" ||
+                card.dataset.category === category
+            ) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+
+        });
+    });
+});
+
+//  pour l'envoie et reset de contacte__________________________________________________________________
+const form = document.getElementById("contactForm");
+
+form.addEventListener("submit", function(e) {
+    //  Bloque le rechargement de la page
+    e.preventDefault();
+
+    const prenom = document.getElementById("prenom");
+    const nom = document.getElementById("nom");
+    const email = document.getElementById("email");
+    const sujet = document.getElementById("sujet");
+    const message = document.getElementById("message");
+
+    const errors = document.querySelectorAll(".error");
+
+    errors.forEach(error => error.textContent = "");
+
+    let valide = true;
+
+    if (prenom.value.trim() === "") {
+        prenom.nextElementSibling.textContent = "Prénom obligatoire";
+        valide = false;
+    }
+
+    if (nom.value.trim() === "") {
+        nom.nextElementSibling.textContent = "Nom obligatoire";
+        valide = false;
+    }
+
+    const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (email.value.trim() === "") {
+        email.nextElementSibling.textContent = "Email obligatoire";
+        valide = false;
+    } else if (!regexEmail.test(email.value)) {
+        email.nextElementSibling.textContent = "Email invalide";
+        valide = false;
+    }
+
+    if (sujet.value === "") {
+        sujet.nextElementSibling.textContent = "Choisissez un sujet";
+        valide = false;
+    }
+
+    if (message.value.trim().length < 20) {
+        message.nextElementSibling.textContent =
+            "Le message doit contenir au moins 20 caractères";
+        valide = false;
+    }
+
+    if (valide) {
+        document.getElementById("successMessage").textContent =
+            "Message envoyé avec succès !";
+        form.reset();
+    }
+});
