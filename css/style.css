@@ -86,19 +86,23 @@ body {
 }
 
 
-.der{
+.der {
     width: 205px;
 }
-.derr{
+
+.derr {
     width: 100px;
 }
-.dern{
+
+.dern {
     width: 150px;
 }
-.derra{
+
+.derra {
     width: 200px;
 }
-.derrc{
+
+.derrc {
     width: 90px;
 }
 
@@ -278,15 +282,18 @@ body {
     border-radius: 60px;
 }
 
+
+
 .hero-btns {
     display: flex;
-    gap: 12px;
-    margin-top: 2rem;
+    gap: 10px;
+    margin-top: 0.8rem;
+    font-size: 10px;
 }
 
 .button {
     border-radius: 60px;
-    background-color: #F59FBD;
+    background-color: wheat;
     border: none;
 
 }
@@ -375,10 +382,24 @@ body {
         width: 100%;
     }
 
-    .but1 {
+    /* .but1 {
         width: 70%;
         font-size: 14px !important;
         padding: 10px 20px;
+    } */
+
+    .but1 {
+        padding: 14px 40px;
+        /* augmente le padding horizontal */
+        min-width: 220px;
+        /* largeur minimum */
+        font-size: 18px;
+        border-radius: 60px;
+        border: 2px solid white;
+        background: none;
+        cursor: pointer;
+        margin: 5px;
+        transition: 0.8s;
     }
 
     .imagehero {
@@ -543,13 +564,21 @@ body {
         font-size: 1.8rem;
     }
 
-    .butcontaine {
+    /* .butcontaine {
         padding-left: 0;
         justify-content: center;
-    }
+    } */
+
+    .butcontaine {
+  display: flex;
+  gap: 16px;
+  margin-top: 2rem;
+}
 
     .imagehero img {
         width: 150px;
+
+
     }
 
     /* COMMENT ÇA MARCHE */
@@ -559,7 +588,18 @@ body {
         /* 2 colonnes sur tablette */
         gap: 1rem;
         padding: 1.5rem;
+
+
     }
+
+    /* .pili {
+            display: flex;
+            justify-content: center;
+        
+        }
+        .pili p{
+            padding-right: 50px;
+        } */
 
     /* CATÉGORIES */
     .card-cat {
@@ -649,7 +689,7 @@ body {
 
 .bien {
     padding-left: 5rem;
-    padding-top: 18rem;
+    padding-top: 15rem;
 
 }
 
@@ -690,6 +730,9 @@ body {
 }
 
 /* button */
+.heroo {
+    padding-top: 20px;
+}
 
 .butcontaine {
     padding-left: 4.5rem;
@@ -704,7 +747,7 @@ body {
     background: none;
     border: 2px solid white;
     padding: 10px 20px;
-    /* font-size: 20px; */
+    font-size: 10px;
     cursor: pointer;
     margin: 5px;
     transition: 0.8s;
@@ -782,8 +825,12 @@ body {
 
 .imagehero {
 
-    padding-top: 10rem;
+    padding-top: 50px;
     padding-left: 20rem;
+}
+
+.container {
+    padding-bottom: 30px;
 }
 
 #carouselExampleCaptions {
@@ -2475,4 +2522,3 @@ body {
     transform: translateY(0);
     /* remonte à sa position normale */
 }
-
